@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecycleMe</title>
+    <link href="./CCS/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href= "./assets/icon-home.JPG" rel="icon">
+</head>
+<body>
+    <header>
+        <h1 class="headline">Welcome to RecycleMe.com <img class="pic" src="./assets/icon-home.JPG" alt="green house on top of green leave"></h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <!-- <img src="./assets/icon-home2.jpg" alt="black house"></li> -->
+            <li class="home"><a href="#">Home</a>
+            <li class="prodList"><a href="#">Products
+                <ul class="dropdown">
+                    <li class="gradeAll"><a href="gradeA.html">Grade A</a></li>
+                    <li class="gradeAll"><a href="gradeB.html">Grade B</a></li>
+                    <li class="gradeAll"><a href="gradeC.html">Grade C</a></li>
+                </ul></a>
+            </li> 
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">My Cart</a></li>
+        </ul>
+    </nav>
+
+    <button id="myBtn">My Cart</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Contenu du cart</p>
+        </div>
+    </div>
+
+    
+
+    <article>
+        <p>Bienvenue!<br>Ici, rien ne se jette, tout se transforme.<br>Tu trouveras tout ce dont tu as besoin pour t'équiper en électronique.<br>Les produits sont catégorisés par grade A, B et C.</p>
+    </article>
+
+    <img class="prodpic" src="./assets/products.jpg"> 
+    <img class="prodpic" src="./assets/product3.jpg">
+    <img class="prodpic" src="./assets/product2.jpg">
+
+    <p>Click here to learn<a href="https://pc-gamer.tech/quest-ce-quun-produit-reconditionne-de-grade-a-b-et-c/" target="_blank"><u>more</u></a>about refurbished products and different grades.<br></p>
+    <p class="shopping">Bon shopping.</p>
+    <img class="shoppic" src="./assets/ready-made.jpg" alt="white bag with cellphone on it">
+
+    <footer>
+        <p>Copyright 2022 - All right reserved</p>
+    </footer>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
